@@ -1,2 +1,26 @@
-//Handy Aliases for mac or linux
+//Handy aliases for mac or linux
 
+## Upgrade packages on debian-based systems #
+alias upgrade="sudo apt update -y && sudo apt dist-upgrade"
+ 
+## Colorize the grep command output for ease of use (good for log file #
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+
+## Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 5'
+
+## get web server headers #
+alias header='curl -I'
+
+## Extract tar file #
+alias untar='tar -zxvf '
+
+## Start Web Server on port 8000#
+alias www='python -m SimpleHTTPServer 8000'
+
+## External IP address #
+alias ipe='curl ipinfo.io/ip'
+
+## Local IP address #
+alias ipi='ipconfig getifaddr en0'
