@@ -24,3 +24,6 @@ alias ipe='curl ipinfo.io/ip'
 
 ## Local IP address #
 alias ipi='ipconfig getifaddr en0'
+
+## [apt install grc] - colorize nmap output & always run as sudo #
+alias nmap="sudo grc nmap"
