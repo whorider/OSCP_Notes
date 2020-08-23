@@ -1,0 +1,2 @@
+## Quick OSINT on email address #
+curl emailrep.io/<email_address>
