@@ -27,3 +27,6 @@ alias ipi='ipconfig getifaddr en0'
 
 ## [apt install grc] - colorize nmap output & always run as sudo #
 alias nmap="sudo grc nmap"
+
+##Automaticlly create any parent directories
+alias mkdir="mkdir -p"
