@@ -28,5 +28,9 @@ alias ipi='ipconfig getifaddr en0'
 ## [apt install grc] - colorize nmap output & always run as sudo #
 alias nmap="sudo grc nmap"
 
-##Automaticlly create any parent directories
+## Automaticlly create any parent directories
 alias mkdir="mkdir -p"
+
+## show sysinfo when terminal loads (apt install neofetch)
+## add the below to a new bottom line of .bashrc
+neofetch
