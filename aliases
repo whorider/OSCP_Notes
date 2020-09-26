@@ -16,6 +16,9 @@ alias header='curl -I'
 ## Extract tar file #
 alias untar='tar -zxvf '
 
+## Unzip a file to own directory & suppress extraction msg's
+alias unzip="unzip -q"
+
 ## Start Web Server on port 8000#
 alias www='python -m SimpleHTTPServer 8000'
 
