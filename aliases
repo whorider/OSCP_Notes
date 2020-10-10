@@ -37,3 +37,19 @@ alias mkdir="mkdir -p"
 ## show sysinfo when terminal loads (apt install neofetch)
 ## add the below to a new bottom line of .bashrc
 neofetch
+
+
+##########Easy Copy Paste############
+alias upgrade="sudo apt update -y && sudo apt dist-upgrade"
+alias clean="sudo apt autoremove -y && sudo apt clean"
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+alias ping='ping -c 5'
+alias header='curl -I'
+alias untar='tar -zxvf'
+alias unzip="unzip -q"
+alias share='python -m SimpleHTTPServer 1234'
+alias ipe='curl ipinfo.io/ip'
+alias ipi='ipconfig getifaddr en0'
+alias nmap="sudo grc nmap"
+alias mkdir="mkdir -p"
